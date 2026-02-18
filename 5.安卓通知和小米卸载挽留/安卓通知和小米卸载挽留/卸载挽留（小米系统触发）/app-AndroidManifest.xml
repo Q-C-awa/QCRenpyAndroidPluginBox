@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
+
+  <application
+      android:allowBackup="true"
+      android:fullBackupContent="@xml/backup"
+      android:fullBackupOnly="true"
+      android:icon="@mipmap/icon"
+      android:label="@string/appName"
+      android:isGame="true"
+      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+      android:hardwareAccelerated="true">
+    <!-- 小米卸载挽留 -->
+    <meta-data
+      android:name="app_description_title"
+      android:resource="@string/uninstall_title" />
+    <meta-data
+      android:name="app_description_content"
+      android:resource="@string/uninstall_message" />
+    <!-- 小米卸载挽留 -->
+    <activity
+        android:name="org.renpy.android.PythonSDLActivity"
+        android:label="@string/iconName"
+        android:alwaysRetainTaskState="true"
+        android:configChanges="layoutDirection|locale|orientation|uiMode|screenLayout|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+        android:launchMode="singleTop"
+        android:screenOrientation="{{ config.orientation }}"
+        android:exported="true"
+        >
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+
+    </activity>
+
+{% if (config.store in ("amazon", "all" )) %}
+    <receiver android:name="com.amazon.device.iap.ResponseReceiver"
+      android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY"
+      android:exported="true">
+
+      <intent-filter>
+        <action android:name="com.amazon.inapp.purchasing.NOTIFY" />
+      </intent-filter>
+    </receiver>
+{% endif %}
+
+  
+  </application>
+
+  <uses-feature android:glEsVersion="0x00030000" android:required="true"/>
+
+  <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+  {% if (config.store in ("play", "all" )) %}
+  <uses-permission android:name="com.android.vending.BILLING"/>
+  {% endif %}
+
+  {% for perm in config.permissions %}
+  {% if "." in perm %}
+  <uses-permission android:name="{{ perm }}" />
+  {% else %}
+  <uses-permission android:name="android.permission.{{ perm }}" />
+  {%endif %}
+  {% endfor %}
+
+{{ manifest_extra or '' }}
+</manifest>

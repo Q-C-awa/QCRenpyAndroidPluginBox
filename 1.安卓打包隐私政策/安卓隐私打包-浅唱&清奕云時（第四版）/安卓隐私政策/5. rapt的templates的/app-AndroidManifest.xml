@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 权限设置 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 这里加入了各种传感器权限的取消申请 -->
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.gyroscope" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.light" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.proximity" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.compass" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.barometer" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.stepcounter" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.stepdetector" android:required="false"/>
+    <!-- 这里的android:icon定义了图标 -->
+    <!-- 如果你使用的是第四版，这里的图标已经被更新为可以使用项目图标 -->
+    <application
+            android:label="@string/app_name"
+            android:icon="@mipmap/icon"
+            android:hasCode="true"
+            android:allowBackup="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- 启动页设为 MainActivity -->
+        <activity
+                android:name="org.renpy.android.MainActivity"
+                android:exported="true"
+                android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 游戏核心逻辑 Activity -->
+        <activity
+                android:name="org.renpy.android.PythonSDLActivity"
+                android:label="@string/iconName"
+                android:alwaysRetainTaskState="true"
+                android:configChanges="layoutDirection|locale|orientation|uiMode|screenLayout|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+                android:launchMode="singleTop"
+                android:screenOrientation="landscape"
+                android:exported="true" />
+    </application>
+
+</manifest>

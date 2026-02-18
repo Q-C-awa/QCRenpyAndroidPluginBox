@@ -1,0 +1,64 @@
+# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,renpy
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,renpy
+
+### Renpy ###
+# Don't track content of these folders #
+########################################
+
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.zip
+
+*.rpyc
+*.rpyb
+*.rpymc
+视频/*
+UI教程/*
+
+# The log file and other misc things #
+######################################
+log.txt
+errors.txt
+traceback.txt
+files.txt
+*.bak
+
+
+# Vscode Renpy Extension #
+##########################
+renpy_warp_*.rpe.py
+
+
+### VisualStudioCode ###
+**/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db

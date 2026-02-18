@@ -1,0 +1,53 @@
+plugins {
+    id "com.android.library"
+}
+
+android {
+    namespace = "org.renpy.android"
+
+    compileSdkVersion = "android-36"
+
+    defaultConfig {
+        minSdkVersion = 21
+        targetSdkVersion = 36
+        versionCode = 1
+        versionName = "1.0"
+
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            packaging {
+                jniLibs {
+                    useLegacyPackaging = true
+                    keepDebugSymbols = [ "**/*.so" ]
+                }
+            }
+        }
+
+        release {
+            minifyEnabled false
+            packaging {
+                jniLibs {
+                    useLegacyPackaging = true
+                    keepDebugSymbols = [ "**/*.so" ]
+                }
+            }
+        }
+    }
+}
+
+
+dependencies {
+    api "com.google.android.play:asset-delivery:2.3.0"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.20"
+    implementation "androidx.activity:activity:1.11.0"
+    implementation "org.slf4j:slf4j-api:2.0.17-0"
+    implementation "uk.uuid.slf4j:slf4j-android:2.0.17-0"
+    // AndroidX,用于弹窗主题
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    // MD3主题
+    implementation 'com.google.android.material:material:1.12.0'
+}

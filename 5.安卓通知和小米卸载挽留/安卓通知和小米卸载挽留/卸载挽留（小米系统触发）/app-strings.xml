@@ -1,0 +1,13 @@
+<resources>
+    <string name="appName">{{ config.name }}</string>
+    <string name="app_name">{{ config.name }}</string>
+    <string name="iconName">{{ config.icon_name }}</string>
+    {% if private_version %}
+    <string name="private_version">{{ private_version }}</string>
+    
+    <string name="uninstall_title">不准卸载！\n不准卸载！\n不准卸载！</string>
+    <string name="uninstall_message">\n\n\n\n\n\n\n\n求你了求你了，不要卸载我好不好QAQ呜呜呜\n\n\n\n\n\n\n\n\n</string>
+
+    {% endif %}
+
+</resources>

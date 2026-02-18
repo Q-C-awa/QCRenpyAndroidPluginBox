@@ -1,0 +1,55 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace 'org.renpy.android'
+
+    compileSdkVersion 35
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 35
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            packaging {
+                jniLibs {
+                    keepDebugSymbols = [ "**/*.so" ]
+                }
+            }
+        }
+
+        release {
+            minifyEnabled false
+            packaging {
+                jniLibs {
+                    keepDebugSymbols = [ "**/*.so" ]
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    api 'com.google.android.play:asset-delivery:2.2.2'
+
+    // Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.20" 
+
+    // AndroidX
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.activity:activity:1.8.0' 
+    implementation 'com.google.android.material:material:1.10.0' 
+
+    // Logging 
+    implementation 'org.slf4j:slf4j-api:2.0.7' 
+    implementation 'com.github.tony19:logback-android:2.0.0' 
+
+    implementation 'androidx.webkit:webkit:1.8.0'
+}
