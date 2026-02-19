@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Ren'Py-8.3.7-blue?style=flat-square" alt="Ren'Py 版本">
   <img src="https://img.shields.io/badge/适用-安卓-green?style=flat-square" alt="平台">
-  <img src="https://img.shields.io/badge/许可-免费使用-orange?style=flat-square" alt="MIT">
+  <img src="https://img.shields.io/badge/许可-MIT-orange?style=flat-square" alt="MIT">
 </p>
 
 <p align="center">

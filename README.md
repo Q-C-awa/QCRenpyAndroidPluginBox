@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Ren'Py-8.3.7-blue?style=flat-square" alt="Ren'Py Version">
-  <img src="https://img.shields.io/badge/Target-Android-green?style=flat-square" alt="Platform">
+  <img src="https://img.shields.io/badge/Platform-Android-green?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/License-MIT-orange?style=flat-square" alt="MIT">
 </p>
 
