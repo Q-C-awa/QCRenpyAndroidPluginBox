@@ -1,14 +1,16 @@
 # Qianchang's Ren'Py Android Adaptation Plugin Repository
 
-<p align="right">
-  <a href="README.md">简体中文版</a>
-</p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Ren'Py-8.3.7-blue?style=flat-square" alt="Ren'Py Version">
   <img src="https://img.shields.io/badge/Target-Android_Adaptation-green?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/License-Free_to_Use-orange?style=flat-square" alt="MIT">
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PR Welcome">
+</p>
+
+<p align="center">
+  <a href="README.md">简体中文版</a>
 </p>
 
 <p align="center">

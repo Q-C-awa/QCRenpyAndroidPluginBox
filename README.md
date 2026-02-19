@@ -8,6 +8,10 @@
 </p>
 
 <p align="center">
+  <a href="README_EN.md">English Version</a>
+</p>
+
+<p align="center">
   希望这里的插件能为你的 Ren'Py 游戏开发提供帮助！<br>
   如有疑问，欢迎联系下方邮箱。
 </p>
