@@ -4,9 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Ren'Py-8.3.7-blue?style=flat-square" alt="Ren'Py Version">
-  <img src="https://img.shields.io/badge/Target-Android_Adaptation-green?style=flat-square" alt="Platform">
-  <img src="https://img.shields.io/badge/License-Free_to_Use-orange?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PR Welcome">
+  <img src="https://img.shields.io/badge/Target-Android-green?style=flat-square" alt="Platform">
+  <img src="https://img.shields.io/badge/License-MIT-orange?style=flat-square" alt="MIT">
 </p>
 
 <p align="center">
@@ -44,7 +43,7 @@ Each plugin is accompanied by a detailed video tutorial and a forum post. Click 
 | **Privacy Pop-ups** | [ BV1RVJkzGEuZ](https://www.bilibili.com/video/BV1RVJkzGEuZ/) | [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1725) |
 | **Secure Input Method** | [ BV1ojxJzYEFg](https://www.bilibili.com/video/BV1ojxJzYEFg/) | [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1754) |
 | **Xiaomi Uninstall Retention & Notifications** | [ BV1TDmRB9Eyy](https://www.bilibili.com/video/BV1TDmRB9Eyy/) | [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1770) |
-| **Album Permission Elevation** | [ BV1PcFszfEaS](https://www.bilibili.com/video/BV1PcFszfEaS/) | [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1779) <br>  |
+| **Album Permission Used** | [ BV1PcFszfEaS](https://www.bilibili.com/video/BV1PcFszfEaS/) | [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1779) <br>  |
 
 ---
 
