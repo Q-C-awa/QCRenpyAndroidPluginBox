@@ -1,74 +1,76 @@
-#  浅唱的 Ren'Py 安卓适配插件仓库
+# QC's Ren'Py Android Plugin Repository
+
+
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Ren'Py-8.3.7-blue?style=flat-square" alt="Ren'Py 版本">
-  <img src="https://img.shields.io/badge/适用-安卓适配-green?style=flat-square" alt="适用平台">
-  <img src="https://img.shields.io/badge/许可-免费使用-orange?style=flat-square" alt="MIT">
-  <img src="https://img.shields.io/badge/PR-欢迎-brightgreen?style=flat-square" alt="PR欢迎">
+  <img src="https://img.shields.io/badge/Ren'Py-8.3.7-blue?style=flat-square" alt="Ren'Py Version">
+  <img src="https://img.shields.io/badge/Target-Android_Adaptation-green?style=flat-square" alt="Platform">
+  <img src="https://img.shields.io/badge/License-Free_to_Use-orange?style=flat-square" alt="MIT">
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PR Welcome">
 </p>
 
 <p align="center">
-  <a href="README_EN.md">English Version</a>
+  <a href="README-CH.md">简体中文版</a>
 </p>
 
 <p align="center">
-  希望这里的插件能为你的 Ren'Py 游戏开发提供帮助！<br>
-  如有疑问，欢迎联系下方邮箱。
+  I hope the plugins here will be helpful for your Ren'Py game development!<br>
+  If you have any questions, feel free to contact me via the emails below.
 </p>
 
 ---
 
-##  重要提示
+## Important Notices
 
->  **引擎版本**：本仓库大部分插件基于 **Ren'Py 8.3.7** 测试适配，使用前请确认你的引擎版本。  
->  **备份文件**：多数插件需要修改游戏引擎源文件，**请务必提前备份**你的引擎源文件！
-
----
-
-##  使用条款
-
- 你可以**免费使用**本仓库的所有插件，无论是**免费作品**还是**商业作品**。  
- 如果你使用了这些插件，希望你能在作品中**注明使用了本仓库插件**并附上仓库链接（非强制）。
+> **Engine Version**: Most plugins in this repository are tested and adapted for **Ren'Py 8.3.7**. Please confirm your engine version before use.  
+> **Backup Files**: Since many plugins require modifying the game engine source files, **please make sure to back up** your engine source files in advance!
 
 ---
 
-##  视频教程插件
+## Terms of Use
 
-每一个插件都配有详细的视频教程和论坛帖子，点击链接即可查看。  
-> 在 Ren'Py 中文论坛搜索用户名 `blurred` 可查阅所有相关帖子。
+You can use all plugins in this repository **for free**, whether for **non-commercial** or **commercial** works.  
+If you use these plugins, it is appreciated (but not mandatory) if you **credit this repository** in your project and include a link.
 
-| 插件名称 | 视频链接 | 论坛帖子 |
+---
+
+## Plugins with Video Tutorials
+
+Each plugin is accompanied by a detailed video tutorial and a forum post. Click the links to view them.  
+> Search for the username `blurred` on the Ren'Py Chinese Forum to find all related posts.
+
+| Plugin Name | Video Link | Forum Post |
 |:--------:|----------|----------|
-| **隐私弹窗** | [ BV1RVJkzGEuZ](https://www.bilibili.com/video/BV1RVJkzGEuZ/) | [ 查看帖子](https://www.renpy.cn/forum.php?mod=viewthread&tid=1725) |
-| **安全输入法** | [ BV1ojxJzYEFg](https://www.bilibili.com/video/BV1ojxJzYEFg/) | [ 查看帖子](https://www.renpy.cn/forum.php?mod=viewthread&tid=1754) |
-| **小米卸载挽留和应用通知** | [ BV1TDmRB9Eyy](https://www.bilibili.com/video/BV1TDmRB9Eyy/) | [ 查看帖子](https://www.renpy.cn/forum.php?mod=viewthread&tid=1770) |
-| **相册提权** | [ BV1PcFszfEaS](https://www.bilibili.com/video/BV1PcFszfEaS/) | [ 查看帖子](https://www.renpy.cn/forum.php?mod=viewthread&tid=1779) <br>  |
+| **Privacy Pop-ups** | [ BV1RVJkzGEuZ](https://www.bilibili.com/video/BV1RVJkzGEuZ/) | [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1725) |
+| **Secure Input Method** | [ BV1ojxJzYEFg](https://www.bilibili.com/video/BV1ojxJzYEFg/) | [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1754) |
+| **Xiaomi Uninstall Retention & Notifications** | [ BV1TDmRB9Eyy](https://www.bilibili.com/video/BV1TDmRB9Eyy/) | [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1770) |
+| **Album Permission Elevation** | [ BV1PcFszfEaS](https://www.bilibili.com/video/BV1PcFszfEaS/) | [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1779) <br>  |
 
 ---
 
-##  暂无视频教程的插件
+## Plugins Without Video Tutorials
 
-以下插件暂未制作视频教程，但论坛帖子中有详细说明：
+The following plugins do not have video tutorials yet, but detailed instructions are available in the forum posts:
 
-- **色环选色**：[ 查看帖子](https://www.renpy.cn/forum.php?mod=viewthread&tid=1760)
-- **安卓加密**：[ 查看帖子](https://www.renpy.cn/forum.php?mod=viewthread&tid=1736)
-
----
-
-## 📬 联系与支持
-
--  **邮箱**：[2738743006@qq.com](mailto:2738743006@qq.com) 或 [qianchang188@gmail.com](mailto:qianchang188@gmail.com)（QQ邮箱优先）
+- **Color Wheel Picker**: [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1760)
+- **Android Encryption**: [ View Post](https://www.renpy.cn/forum.php?mod=viewthread&tid=1736)
 
 ---
 
-## ⭐ 使用与贡献
+## 📬 Contact & Support
 
-- 如果你觉得这些插件对你有帮助，欢迎给仓库点个 **Star** ⭐  
-- 如果你有改进建议或发现了问题，欢迎提交 **Issue** 或 **Pull Request**  
-- 你也可以向其他人分享该插件
+- **Email**: [2738743006@qq.com](mailto:2738743006@qq.com) or [qianchang188@gmail.com](mailto:qianchang188@gmail.com) (QQ email preferred)
+
+---
+
+## ⭐ Usage & Contribution
+
+- If you find these plugins helpful, please give this repository a **Star** ⭐  
+- If you have suggestions for improvement or find any issues, feel free to submit an **Issue** or **Pull Request**.  
+- You are also welcome to share these plugins with others.
 
 ---
 
 <p align="center">
-  <i>感谢使用，祝你的游戏开发顺利！</i>
+  <i>Thanks for using, and good luck with your game development!</i>
 </p>
