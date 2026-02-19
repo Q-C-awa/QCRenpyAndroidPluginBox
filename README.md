@@ -56,16 +56,16 @@ The following plugins do not have video tutorials yet, but detailed instructions
 
 ---
 
-## 📬 Contact & Support
+## Contact & Support
 
 - **Email**: [2738743006@qq.com](mailto:2738743006@qq.com) or [qianchang188@gmail.com](mailto:qianchang188@gmail.com) (QQ email preferred)
 
 ---
 
-## ⭐ Usage & Contribution
+## Usage & Contribution
 
 - If you find these plugins helpful, please give this repository a **Star** ⭐  
-- If you have suggestions for improvement or find any issues, feel free to submit an **Issue** or **Pull Request**.  
+- If you have suggestions for improvement or find any issues, feel free to submit an **Issue** .
 - You are also welcome to share these plugins with others.
 
 ---
