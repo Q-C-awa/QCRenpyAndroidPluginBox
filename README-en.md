@@ -1,4 +1,4 @@
-# Qianchang's Ren'Py Android Adaptation Plugin Repository
+# QC's Ren'Py Android Plugin Repository
 
 
 
